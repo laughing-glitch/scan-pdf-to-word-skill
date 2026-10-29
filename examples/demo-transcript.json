@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "document": {"title": "掃描轉 Word 自測", "language": "zh-TW", "font_size_pt": 12},
+  "pages": [
+    {"source_page": 1, "blocks": [
+      {"type": "paragraph", "text": "掃描轉 Word 自測", "size_pt": 18, "bold": true},
+      {"type": "paragraph", "text": "姓名：____________　日期：____________"},
+      {"type": "paragraph", "text": "一、保留繁體字、題號及空白，不代填答案。"},
+      {"type": "table", "widths_cm": [4, 13.4], "header_rows": 1,
+       "rows": [["項目", "回答"], ["最喜歡的書", ""], ["理由", ""]], "min_row_heights_cm": [0.8, 1.3, 2.2]},
+      {"type": "paragraph", "text": [{"text": "示例疑字", "comment": "這是原創自測批注，示範不確定文字的標記方式。"}, {"text": "：保留正文，在批注內說明。"}]}
+    ]},
+    {"source_page": 2, "blocks": [
+      {"type": "paragraph", "text": "第二頁：可編輯表格", "size_pt": 18, "bold": true},
+      {"type": "table", "widths_cm": [5, 6, 6.4], "rows": [["合併標題", "", ""], ["甲", "乙", "丙"], ["", "", ""]], "merges": [[0, 0, 0, 2]], "min_row_heights_cm": [0.9, 0.9, 1.5]},
+      {"type": "paragraph", "text": "1. 選出最適合的詞語：（　）"},
+      {"type": "paragraph", "text": "A. 清楚　　B. 完整　　C. 可修改"}
+    ]}
+  ]
+}

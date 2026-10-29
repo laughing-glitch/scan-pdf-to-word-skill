@@ -1,0 +1,4 @@
+interface:
+  display_name: "扫描 PDF 转可编辑 Word"
+  short_description: "扫描件逐页识别校对，重建可编辑正文、表格和答题框，并检查 Word 排版"
+  default_prompt: "使用 $scan-pdf-to-word 将这份扫描 PDF 转成可编辑 Word，逐页校对文字，保留题目和答题留白。"
